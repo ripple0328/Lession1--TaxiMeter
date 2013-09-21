@@ -6,5 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 public class TaxiMeter {
+    static public double calculateTaxiFee(double distance,double waitTime){
+           return 6;
+    }
 
 }
