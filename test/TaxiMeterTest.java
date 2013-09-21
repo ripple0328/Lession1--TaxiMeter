@@ -61,6 +61,17 @@ public class TaxiMeterTest {
 		}
 
 		// integrate test
+		@Test
+		public void flag_price() throws Exception {
+				assertEquals(7,TaxiFee.TotalFee(2,4));
+		}
 		
-		
+		@Test
+		public void base_distance_test() throws Exception{
+				assertEquals(13,TaxiFee.TotalFee(7,10));
+		}
+		@Test
+		public void extra_distance_test() throws Exception{
+				assertEquals(21,TaxiFee.TotalFee(10,21));
+		}
 }

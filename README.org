@@ -1,0 +1,16 @@
+* Taximeter homework 
+
+* How to use
+** example
+  TaxMeter.TotalFee(distance,waitTime)
+** inputs
+	 there is two inputs variable
+	 1. distance 
+		 in kilometer
+	 2. wait time 
+		 in minute
+** calculate distance fee and wait fee seperately
+	 1. distance fee
+			TaxMeter.distanceFee(distance)
+	 2. wait fee
+			TaxMeter.waitFee(waitTime)

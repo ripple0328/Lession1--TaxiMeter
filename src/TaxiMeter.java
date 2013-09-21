@@ -33,4 +33,8 @@ public class TaxiMeter {
 				return minute * PER_WAIT_PRICE;
 		}
 
+		static public int TotalFee(double distance,double waitTime) {
+				return round(distanceFee(distance) + waitFee(waitTime));
+		}
+
 }
