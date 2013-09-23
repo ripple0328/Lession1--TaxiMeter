@@ -6,7 +6,7 @@
 ** example
   TaxMeter.TotalFee(distance,waitTime)
 ** inputs
-	 there is two inputs variable
+	 there are two inputs variable
 	 1. distance 
 		 in kilometer
 	 2. wait time 
